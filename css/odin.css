@@ -375,9 +375,123 @@ word-spacing: 2px;
 }
 
 
+/* all---------path-------------------css */
 
+.all-path-background{
+    background-color: #fafafc;
+}
+.all-path-head{
+    
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.all-path-card-1{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
+}
+.card-1-top-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card-1-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px;
+}
+.card-1-top button{
+    padding: 9px 45px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #374151;
+    background-color: #374151;
+}
+.card-1-bottom button{
+    padding: 9px 45px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #374151;
+    background-color: #374151;
+    display: none;
+}
+.card-1-top button:hover{
+    background-color:#2a303a ;
+}
+.card-1-bottom button:hover{
+    background-color:#2a303a ;
+}
+.card-1-center-border{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 20px 0px;
+}
+.card-1-bottom{
+    text-align: justify;
+    color: #4b5563;
+    padding: 20px 30px 10px;
 
+}
+.all-path-head-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    gap: 20px;
+}
+.all-path-head-2-border{
+    border-bottom: 1px solid #dbdbdb ;
+    width: 20%;
+}
+.all-path-card-2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+    
+}
+.all-path-card-2-sub{
+    background-color: white;
+    border-radius: 5px;
+    width: 33%;
+    padding:15px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.all-path-card-2-sub p{
+    color:#636363;
+    font-weight: 400;
+}
+.all-path-card-2-sub div{
+    margin: 25px 0px;
+}
+.all-path-card-2-sub img{
+    width: 100px;
+}
+.all-path-card-2-sub-img{
+    text-align: center;
+}
+.course-details{
+    display: flex;
+    justify-content: space-between;
+}
+.all-path-card-2-button button{
+    padding: 9px 45px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #374151;
+    background-color: #374151;
+}
+.all-path-card-2-button button:hover{
+    background-color:#2a303a ;
+}
 
 
 
@@ -460,6 +574,33 @@ word-spacing: 2px;
      .footer-sub-1-text{
         padding-right: 10px;
      }
+     .all-path-card-1{
+        width: 95%;
+     }
+     .card-1-top-left{
+       display:flex;
+       flex-direction: column;
+       margin: auto;
+     }
+     .card-1-top button{
+        display: none;
+    }
+    .card-1-bottom button{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .card-1-center-border{
+        display: none;
+    }
+    .all-path-card-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .all-path-card-2-sub{
+        width: 95%;
+    }
     
 }
 @media (min-width:576px) and (max-width:768px){
@@ -500,6 +641,28 @@ word-spacing: 2px;
         width: 100%;
         
     }
+    .all-path-card-1{
+        width: 85%;
+     }
+    .card-1-top button{
+        display: none;
+    }
+    .card-1-bottom button{
+        display: inline;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .card-1-center-border{
+        display: none;
+    }
+    .all-path-card-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .all-path-card-2-sub{
+        width: 85%;
+    }
+    
    
    
 }
